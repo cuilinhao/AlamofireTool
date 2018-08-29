@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50179C8EE95DAF69CD1F5025 /* Pods_AlaformTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7D09D004D7D26B7511FA88 /* Pods_AlaformTest.framework */; };
+		708B977B2136445E00306476 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708B977A2136445E00306476 /* AppDelegate.swift */; };
+		708B977D2136445E00306476 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708B977C2136445E00306476 /* ViewController.swift */; };
+		708B97802136445E00306476 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 708B977E2136445E00306476 /* Main.storyboard */; };
+		708B97822136445F00306476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 708B97812136445F00306476 /* Assets.xcassets */; };
+		708B97852136445F00306476 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 708B97832136445F00306476 /* LaunchScreen.storyboard */; };
+		708B978E213649CB00306476 /* NetWorkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708B978D213649CB00306476 /* NetWorkTools.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		187D7B4AC5A0387F9B481DF1 /* Pods-AlaformTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlaformTest.debug.xcconfig"; path = "Target Support Files/Pods-AlaformTest/Pods-AlaformTest.debug.xcconfig"; sourceTree = "<group>"; };
+		708B97772136445E00306476 /* AlaformTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlaformTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		708B977A2136445E00306476 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		708B977C2136445E00306476 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		708B977F2136445E00306476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		708B97812136445F00306476 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		708B97842136445F00306476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		708B97862136445F00306476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		708B978D213649CB00306476 /* NetWorkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkTools.swift; sourceTree = "<group>"; };
+		92BE33AE5384D5F5E73C3D95 /* Pods-AlaformTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlaformTest.release.xcconfig"; path = "Target Support Files/Pods-AlaformTest/Pods-AlaformTest.release.xcconfig"; sourceTree = "<group>"; };
+		DA7D09D004D7D26B7511FA88 /* Pods_AlaformTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlaformTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		708B97742136445E00306476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50179C8EE95DAF69CD1F5025 /* Pods_AlaformTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CD9F53139C02140E5C952DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA7D09D004D7D26B7511FA88 /* Pods_AlaformTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40487ECD54D60398C6E6C05F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				187D7B4AC5A0387F9B481DF1 /* Pods-AlaformTest.debug.xcconfig */,
+				92BE33AE5384D5F5E73C3D95 /* Pods-AlaformTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		708B976E2136445E00306476 = {
+			isa = PBXGroup;
+			children = (
+				708B97792136445E00306476 /* AlaformTest */,
+				708B97782136445E00306476 /* Products */,
+				40487ECD54D60398C6E6C05F /* Pods */,
+				1CD9F53139C02140E5C952DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		708B97782136445E00306476 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				708B97772136445E00306476 /* AlaformTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		708B97792136445E00306476 /* AlaformTest */ = {
+			isa = PBXGroup;
+			children = (
+				708B978C213649B600306476 /* Tools */,
+				708B977A2136445E00306476 /* AppDelegate.swift */,
+				708B977C2136445E00306476 /* ViewController.swift */,
+				708B977E2136445E00306476 /* Main.storyboard */,
+				708B97812136445F00306476 /* Assets.xcassets */,
+				708B97832136445F00306476 /* LaunchScreen.storyboard */,
+				708B97862136445F00306476 /* Info.plist */,
+			);
+			path = AlaformTest;
+			sourceTree = "<group>";
+		};
+		708B978C213649B600306476 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				708B978D213649CB00306476 /* NetWorkTools.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		708B97762136445E00306476 /* AlaformTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 708B97892136445F00306476 /* Build configuration list for PBXNativeTarget "AlaformTest" */;
+			buildPhases = (
+				DC6F707EB158826743F19A14 /* [CP] Check Pods Manifest.lock */,
+				708B97732136445E00306476 /* Sources */,
+				708B97742136445E00306476 /* Frameworks */,
+				708B97752136445E00306476 /* Resources */,
+				7108EB564FE59EC8E4D0DBA3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlaformTest;
+			productName = AlaformTest;
+			productReference = 708B97772136445E00306476 /* AlaformTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		708B976F2136445E00306476 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "崔林豪";
+				TargetAttributes = {
+					708B97762136445E00306476 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 708B97722136445E00306476 /* Build configuration list for PBXProject "AlaformTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 708B976E2136445E00306476;
+			productRefGroup = 708B97782136445E00306476 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				708B97762136445E00306476 /* AlaformTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		708B97752136445E00306476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708B97852136445F00306476 /* LaunchScreen.storyboard in Resources */,
+				708B97822136445F00306476 /* Assets.xcassets in Resources */,
+				708B97802136445E00306476 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7108EB564FE59EC8E4D0DBA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlaformTest/Pods-AlaformTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlaformTest/Pods-AlaformTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC6F707EB158826743F19A14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlaformTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		708B97732136445E00306476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708B977D2136445E00306476 /* ViewController.swift in Sources */,
+				708B977B2136445E00306476 /* AppDelegate.swift in Sources */,
+				708B978E213649CB00306476 /* NetWorkTools.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		708B977E2136445E00306476 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				708B977F2136445E00306476 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		708B97832136445F00306476 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				708B97842136445F00306476 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		708B97872136445F00306476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		708B97882136445F00306476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		708B978A2136445F00306476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 187D7B4AC5A0387F9B481DF1 /* Pods-AlaformTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlaformTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cuilinhao.com.cn.AlaformTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		708B978B2136445F00306476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92BE33AE5384D5F5E73C3D95 /* Pods-AlaformTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlaformTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cuilinhao.com.cn.AlaformTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		708B97722136445E00306476 /* Build configuration list for PBXProject "AlaformTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708B97872136445F00306476 /* Debug */,
+				708B97882136445F00306476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		708B97892136445F00306476 /* Build configuration list for PBXNativeTarget "AlaformTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708B978A2136445F00306476 /* Debug */,
+				708B978B2136445F00306476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 708B976F2136445E00306476 /* Project object */;
+}
